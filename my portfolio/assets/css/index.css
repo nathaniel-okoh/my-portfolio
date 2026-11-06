@@ -1,0 +1,326 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+header {
+  padding: 2% 5%;
+  display: flex;
+  width: 90%;
+  position: fixed;
+  z-index: 1000;
+  justify-content: space-between;
+  box-shadow: 0 5px 10px aquamarine;
+  background-image: linear-gradient(
+    to right,
+    rgb(42, 90, 74),
+    rgb(23, 24, 24),
+    rgb(42, 90, 74)
+  );
+}
+header h2 {
+  background: linear-gradient(to right, silver, aquamarine);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+header nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+header nav a {
+  background: linear-gradient(to right, silver, aquamarine);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-decoration: none;
+}
+header nav .active {
+  background: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+#hero {
+  padding: 2% 5%;
+  display: flex;
+  background: linear-gradient(
+    to right,
+    rgb(42, 90, 74),
+    rgb(23, 24, 24),
+    rgb(42, 90, 74)
+  );
+}
+#hero h1 {
+  font-size: 90px;
+  color: white;
+  margin-top: 200px;
+}
+#hero h2 {
+  font-size: 50px;
+  background: linear-gradient(to right, silver, aquamarine);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+#hero p {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+#hero .fa-whatsapp {
+  color: green;
+  text-shadow: 1px 0 1px white;
+}
+#hero .fa-snapchat {
+  color: yellow;
+  text-shadow: 0 1px 1px yellow;
+}
+#hero .fa-tiktok {
+  text-shadow: 0 1px 1px aquamarine;
+}
+#hero i {
+  margin-bottom: 100px;
+}
+#about {
+  padding: 2% 5%;
+  background: linear-gradient(
+    to right,
+    rgb(42, 90, 74),
+    rgb(23, 24, 24),
+    rgb(42, 90, 74)
+  );
+}
+#about h1 {
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+#about .content {
+  display: flex;
+  margin-top: 50px;
+}
+#about .content .left {
+  width: 50%;
+}
+#about .content .right {
+  width: 50%;
+}
+#about .content .right h2 {
+  font-size: 50px;
+  background: linear-gradient(to right, silver, aquamarine);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+#about .content .right p {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+#about .content .right .design {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: solid 2px aquamarine;
+  text-align: center;
+  box-shadow: 0 3px 10px aquamarine;
+}
+#about .content .right .design p {
+  font-size: 35px;
+  margin-left: 10px;
+  margin-top: 5px;
+  background: linear-gradient(to right, silver, aquamarine);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+#skills {
+  padding: 2% 5%;
+  background: linear-gradient(
+    to right,
+    rgb(42, 90, 74),
+    rgb(23, 24, 24),
+    rgb(42, 90, 74)
+  );
+}
+#skills h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+#skills .content {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+#skills .content .left {
+  width: 25%;
+
+  font-size: 35px;
+}
+#skills .content .right {
+  width: 25%;
+  font-size: 35px;
+}
+#skills .content p {
+  margin-bottom: 35px;
+  width: 100%;
+  background: linear-gradient(to right, silver, aquamarine);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+#projects {
+  padding: 2% 5%;
+  background: linear-gradient(
+    to right,
+    rgb(42, 90, 74),
+    rgb(23, 24, 24),
+    rgb(42, 90, 74)
+  );
+}
+#projects h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  margin-bottom: 50px;
+}
+#projects .design {
+  margin: auto;
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  border: solid 2px aquamarine;
+  text-align: center;
+  box-shadow: 0 3px 10px aquamarine;
+  background: linear-gradient(to right, rgb(139, 139, 139), rgb(83, 167, 139));
+  margin-bottom: 50px;
+}
+#projects .design p {
+  font-size: 35px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: white;
+}
+#projects .container {
+  margin: auto;
+  margin-bottom: 100px;
+  width: 50%;
+  border: solid 2px aquamarine;
+  padding: 2% 5%;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px aquamarine;
+}
+#projects .container .top {
+  margin-bottom: 15px;
+}
+#projects .container .top img {
+  width: 100%;
+  border-radius: 30px;
+}
+#projects .container p {
+  color: white;
+  font-size: 24px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+#projects .container .button {
+  display: flex;
+  align-items: center;
+}
+#projects .container .repo {
+  width: 45%;
+  height: 50px;
+  border-radius: 20px;
+  border: solid 2px aquamarine;
+  text-align: center;
+  background-color: transparent;
+  box-shadow: 0 3px 10px aquamarine;
+  margin-right: 20px;
+}
+#projects .container .repo p {
+  margin-top: 5px;
+  background: linear-gradient(to right, silver, aquamarine);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+#projects .container .demo {
+  width: 45%;
+  height: 50px;
+  border-radius: 20px;
+  border: solid 2px aquamarine;
+  text-align: center;
+  box-shadow: 0 3px 10px aquamarine;
+  background: linear-gradient(to right, rgb(139, 139, 139), rgb(83, 167, 139));
+}
+#projects .container .demo p {
+  margin-top: 5px;
+  text-align: center;
+}
+footer {
+  padding: 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 5px 10px aquamarine;
+  background-image: linear-gradient(
+    to right,
+    rgb(42, 90, 74),
+    rgb(23, 24, 24),
+    rgb(42, 90, 74)
+  );
+}
+footer .left {
+  width: 20%;
+}
+footer .left h2 {
+  width: 100%;
+  background: linear-gradient(to right, silver, aquamarine);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+footer .left p {
+  color: rgb(207, 205, 205);
+}
+footer .right {
+  width: 70%;
+}
+footer .right nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .right nav a {
+  text-decoration: none;
+  background: linear-gradient(to right, silver, aquamarine);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
