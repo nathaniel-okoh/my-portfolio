@@ -53,7 +53,7 @@ header nav .active {
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 950px) {
   header {
     display: block;
   }
@@ -90,7 +90,7 @@ header nav .active {
   margin-bottom: 20px;
 }
 #hero p {
-  text-align: justify;
+  text-align: left;
   font-size: 24px;
   color: white;
   margin-bottom: 20px;
@@ -108,6 +108,17 @@ header nav .active {
 }
 #hero i {
   margin-bottom: 100px;
+}
+@media only screen and (max-width: 401px) {
+  #hero h1 {
+    font-size: 70px;
+  }
+  #hero h2 {
+    font-size: 40px;
+  }
+  #hero p {
+    font-size: 18px;
+  }
 }
 #about {
   padding: 2% 5%;
@@ -141,7 +152,7 @@ header nav .active {
   margin-bottom: 20px;
 }
 #about .content .right p {
-  text-align: justify;
+  text-align: left;
   font-size: 24px;
   color: white;
   margin-bottom: 20px;
@@ -155,7 +166,7 @@ header nav .active {
   box-shadow: 0 3px 10px aquamarine;
 }
 #about .content .right .design p {
-  font-size: 35px;
+  font-size: 25px;
   margin-left: 10px;
   margin-top: 5px;
   background: linear-gradient(to right, silver, aquamarine);
@@ -165,7 +176,28 @@ header nav .active {
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 400px) {
+  #about h1 {
+    font-size: 60px;
+  }
+  #about .content .right h2 {
+    font-size: 40px;
+  }
+  #about .content {
+    display: block;
+  }
+  #about .content .right {
+    width: 100%;
+  }
+  #about .content .right p {
+    font-size: 18px;
+  }
+  #about .content .right .design p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 950px) {
   #about .content {
     display: block;
   }
@@ -174,7 +206,7 @@ header nav .active {
   }
   #about .content .right .design p {
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 #skills {
@@ -215,7 +247,21 @@ header nav .active {
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 400px) {
+  #skills h1 {
+    font-size: 60px;
+  }
+  #skills .content .left {
+    width: 45%;
+    font-size: 28px;
+  }
+  #skills .content .right {
+    width: 45%;
+    font-size: 28px;
+    text-align: right;
+  }
+}
+@media only screen and(min-width:401px) and (max-width: 950px) {
   #skills .content .left {
     width: 45%;
     font-size: 28px;
@@ -282,6 +328,9 @@ header nav .active {
   text-align: justify;
   margin-bottom: 25px;
 }
+#projects .container p a {
+  text-decoration: none;
+}
 #projects .container .button {
   display: flex;
   align-items: center;
@@ -318,7 +367,13 @@ header nav .active {
   margin-top: 5px;
   text-align: center;
 }
-@media only screen and (max-width: 650px) {
+#projects .container .demo p a {
+  color: white;
+}
+@media only screen and (max-width: 400px) {
+  #projects .container p {
+    font-size: 18px;
+  }
   #projects h1 {
     font-size: 60px;
     margin-bottom: 20px;
@@ -328,7 +383,39 @@ header nav .active {
   }
   #projects .design p {
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 18px;
+  }
+  #projects .container {
+    width: 85%;
+  }
+  #projects .container .repo {
+    width: 47%;
+    margin-bottom: 15px;
+  }
+  #projects .container .repo p {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  #projects .container .demo {
+    width: 47%;
+    margin-bottom: 15px;
+  }
+  #projects .container .demo p {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
+@media only screen and(min-width:401px) and (max-width: 950px) {
+  #projects h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  #projects .design {
+    width: 60%;
+  }
+  #projects .design p {
+    margin-top: 10px;
+    font-size: 18px;
   }
   #projects .container {
     width: 85%;
@@ -342,6 +429,7 @@ header nav .active {
   }
   #projects .container .repo p {
     margin-top: 10px;
+    font-size: 15px;
   }
   #projects .container .demo {
     width: 47%;
@@ -349,6 +437,7 @@ header nav .active {
   }
   #projects .container .demo p {
     margin-top: 10px;
+    font-size: 15px;
   }
 }
 footer {
@@ -396,7 +485,7 @@ footer .right nav a {
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 950px) {
   footer {
     display: block;
   }
