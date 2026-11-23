@@ -7,3 +7,9 @@ navLinks.forEach((link) => {
     this.classList.add("active");
   });
 });
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector("header nav");
+
+menuToggle.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+});
