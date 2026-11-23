@@ -109,7 +109,7 @@ header nav .active {
 #hero i {
   margin-bottom: 100px;
 }
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 500px) {
   #hero h1 {
     font-size: 70px;
   }
@@ -176,7 +176,7 @@ header nav .active {
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   #about h1 {
     font-size: 60px;
   }
@@ -197,7 +197,7 @@ header nav .active {
     font-size: 18px;
   }
 }
-@media only screen and (min-width: 401px) and (max-width: 950px) {
+@media only screen and (min-width: 501px) and (max-width: 950px) {
   #about .content {
     display: block;
   }
@@ -247,7 +247,7 @@ header nav .active {
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   #skills h1 {
     font-size: 60px;
   }
@@ -261,7 +261,7 @@ header nav .active {
     text-align: right;
   }
 }
-@media only screen and(min-width:401px) and (max-width: 950px) {
+@media only screen and (min-width: 501px) and (max-width: 950px) {
   #skills .content .left {
     width: 45%;
     font-size: 28px;
@@ -370,7 +370,7 @@ header nav .active {
 #projects .container .demo p a {
   color: white;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   #projects .container p {
     font-size: 18px;
   }
@@ -405,7 +405,7 @@ header nav .active {
     font-size: 15px;
   }
 }
-@media only screen and(min-width:401px) and (max-width: 950px) {
+@media only screen and (min-width: 501px) and (max-width: 950px) {
   #projects h1 {
     font-size: 60px;
     margin-bottom: 20px;
